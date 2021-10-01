@@ -4,7 +4,11 @@ import img from '../../images/giphy.gif';
 const PlaceOrder = () => {
     return (
         <div>
-            <img src={img} alt="" />
+            
+            <h1>Hey Congratulation!!!</h1>
+            {
+                <img src={ img } alt="" />
+            }
         </div>
     );
 };
